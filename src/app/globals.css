@@ -18,16 +18,39 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #f5f5f4;
+  /* background: url(/indre-matre.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1 {
+  font-family: 'Italiana';
+}
+
+p, footer {
+  font-family: 'Open Sans';
+}
+
+img {
+  pointer-events: none;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
+.bg::before {
+  position: absolute;
+  top: 80px;
+  left: -40px;
+  content: '';
+  width: 800px;
+  height: 350px;
+  background-color: #ADD990;
+  z-index: -1;
 }
