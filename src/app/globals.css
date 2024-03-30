@@ -72,3 +72,10 @@ img {
     padding: 15% 2% !important;
   }
 }
+
+@media only screen and (max-width: 500px) {
+
+  h1 {
+    font-size: 100px !important;
+  }
+}
