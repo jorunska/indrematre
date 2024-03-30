@@ -1,12 +1,13 @@
 // import Image from "next/image";
 
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-between">
       <div className="items-center flex flex-wrap mt-24">
         <div className="w-full lg:w-4/12 ml-auto mr-auto px-10 bg">
           <div className="bg-header">
-            <h1 className="text-9xl font-semibold">Indre Matre</h1>
+            <h1 className="text-9xl">Indre Matre</h1>
             <p className="mt-8 text-2xl leading-relaxed text-blueGray-500">
               En liten plass på Vestlandet, med spektakulær utsikt og natur!
             </p>

@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+
+const opensans = Open_Sans({ 
+  subsets: ["latin"],
+});
+
 
 export const metadata: Metadata = {
   title: "Indre Matre",
@@ -16,7 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="no">
-      <body className={inter.className}>{children}</body>
+      <body className={opensans.className}>{children}
+      </body>
     </html>
   );
 }
