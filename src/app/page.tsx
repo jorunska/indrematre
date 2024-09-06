@@ -14,7 +14,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full md:w-7/12 ml-auto mr-auto px-4 bg-Image">
-          <Image alt="Utsikt over hav og fjell i solskinnsvær" className="max-w-full rounded-lg shadow-lg" src="indre-matre.jpg" />
+          <Image alt="Utsikt over hav og fjell i solskinnsvær" className="max-w-full rounded-lg shadow-lg" src="/indre-matre.jpg" width="800" height="0"/>
         </div>
       </div>
 
@@ -23,15 +23,15 @@ export default function Home() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg object-cover"
-              src="naust-indre-matre.jpg"
-              alt="To naust som ligger ved vannkanten, med fjell i bakgrunn"
+              src="/naust-indre-matre.jpg"
+              alt="To naust som ligger ved vannkanten, med fjell i bakgrunn" width="500" height="0"
             />
           </div>
           <div>
             <Image
               className="h-auto max-w-full rounded-lg object-cover"
-              src="bal-indre-matre.jpg"
-              alt="Bålpanne med fjell i bakgrunn"
+              src="/bal-indre-matre.jpg"
+              alt="Bålpanne med fjell i bakgrunn" width="500" height="0"
             />
           </div>
 
@@ -40,15 +40,15 @@ export default function Home() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg object-cover"
-              src="svane-indre-matre.jpg"
-              alt="Svane i sjøen"
+              src="/svane-indre-matre.jpg"
+              alt="Svane i sjøen" width="500" height="0"
             />
           </div>
           <div>
             <Image
               className="h-auto max-w-full rounded-lg object-cover"
-              src="blomst-indre-matre.jpg"
-              alt="Blomst med fjell og sjø i bakgrunn"
+              src="/blomst-indre-matre.jpg"
+              alt="Blomst med fjell og sjø i bakgrunn" width="500" height="0"
             />
           </div>
         </div>
