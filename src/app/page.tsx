@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -13,22 +13,22 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="w-full md:w-7/12 ml-auto mr-auto px-4 bg-img">
-          <img alt="Utsikt over hav og fjell i solskinnsvær" className="max-w-full rounded-lg shadow-lg" src="indre-matre.jpg" />
+        <div className="w-full md:w-7/12 ml-auto mr-auto px-4 bg-Image">
+          <Image alt="Utsikt over hav og fjell i solskinnsvær" className="max-w-full rounded-lg shadow-lg" src="indre-matre.jpg" />
         </div>
       </div>
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-2 p-32 gallery">
         <div className="grid gap-4">
           <div>
-            <img
+            <Image
               className="h-auto max-w-full rounded-lg object-cover"
               src="naust-indre-matre.jpg"
               alt="To naust som ligger ved vannkanten, med fjell i bakgrunn"
             />
           </div>
           <div>
-            <img
+            <Image
               className="h-auto max-w-full rounded-lg object-cover"
               src="bal-indre-matre.jpg"
               alt="Bålpanne med fjell i bakgrunn"
@@ -38,14 +38,14 @@ export default function Home() {
         </div>
         <div className="grid gap-4">
           <div>
-            <img
+            <Image
               className="h-auto max-w-full rounded-lg object-cover"
               src="svane-indre-matre.jpg"
               alt="Svane i sjøen"
             />
           </div>
           <div>
-            <img
+            <Image
               className="h-auto max-w-full rounded-lg object-cover"
               src="blomst-indre-matre.jpg"
               alt="Blomst med fjell og sjø i bakgrunn"
